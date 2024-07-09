@@ -36,7 +36,7 @@ bot.on('message',async (msg) => {
     console.log(objectItem)
     let expl = text.split(' ')[0]
     switch(expl){
-        case "/start":{
+        case "/help":{
             let help = "Command Help:\n"
             help += "/set {phone}   : Cài đặt số điện thoại\n"
             help += "/show   : Xem số hiện tại\n"
